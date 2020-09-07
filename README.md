@@ -1,4 +1,4 @@
-# EP-DLMH
+# EPI-DLMH
 
 This is our implementation for the paper:
 
@@ -26,9 +26,9 @@ Due to size limitations, we only provide GM12878 dataset in data/GM12878.
 
   The weight of the embedding layer converted from the pre-trained DNA vector provided by Ng (2017).
 
-- train.py, train*c*-.py, train_c_x.py, train_max.py
+- train.py, train_c\_-.py, train_c_x.py, train_max.py
 
-  Used for training all EP-DLMH models
+  Used for training all EPI-DLMH models
 
 - test.py
 
