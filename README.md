@@ -8,10 +8,6 @@ This is our implementation for the paper:
 Figure1 shows the Architecture of the model.
 It consists of four steps, including Sequence embedding, Feature extraction, Matching heuristic, and Prediction.
 
-# Dataset
-
-Due to size limitations, we only provide GM12878 dataset in data/GM12878.
-
 # File Description
 
 - Data_Augmentation.R
