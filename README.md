@@ -1,12 +1,16 @@
 # EP-DLMH
 
-This is our implementation for the paper
+This is our implementation for the paper:
 
-> "Predicting Enhancer-Promoter Interactions by Deep Learning and Matching Heuristic"
+> Predicting Enhancer-Promoter Interactions by Deep Learning and Matching Heuristic
 
 <img align="center" src="Figure1.png">
 Figure1 shows the Architecture of the model.
 It consists of four steps, including Sequence embedding, Feature extraction, Matching heuristic, and Prediction.
+
+# Dataset
+
+Due to size limitations, we only provide GM12878 dataset in data/GM12878.
 
 # File Description
 
@@ -33,5 +37,7 @@ It consists of four steps, including Sequence embedding, Feature extraction, Mat
 # Usage
 
 ```bash
-python train.py
+1.python sequence_processing.py
+2.python train.py
+3.python test.py
 ```
