@@ -8,6 +8,10 @@ This is our implementation for the paper:
 Figure1 shows the Architecture of the model.
 It consists of four steps, including Sequence embedding, Feature extraction, Matching heuristic, and Prediction.
 
+# Dataset
+
+Due to size limitation, we put the paper data on Zenodo, available from https://zenodo.org/record/4018229
+
 # File Description
 
 - Data_Augmentation.R
